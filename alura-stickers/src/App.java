@@ -11,7 +11,7 @@ import java.util.Map;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        // FAZER CONEXÃO HTTP E BUSCAR TOP 250 FILMES 
+        // FAZER CONEXÃO HTTP E BUSCAR TOP 10 FILMES 
         String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/TopMovies.json";
         URI endereco = URI.create(url);
         HttpClient client = HttpClient.newHttpClient();
