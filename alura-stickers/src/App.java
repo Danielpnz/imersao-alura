@@ -35,7 +35,7 @@ public class App {
 
             geradora.cria(inputStream, nomeArquivo);
 
-            
+
 
             System.out.println(filme.get(titulo));
             System.out.println();
